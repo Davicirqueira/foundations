@@ -15,11 +15,23 @@
     .h{
         margin-left: 10%;
     }
+    .h-active{
+        margin-left: 10%;
+        text-decoration: none;
+        color: #000;
+        font: 600 18px "Parkinsans";
+    }
 
     a{
         text-decoration: none;
         color: #000;
         font: 400 18px "Parkinsans";
+    }
+
+    .active-link{
+        text-decoration: none;
+        color: #000;
+        font: 600 18px "Parkinsans";
     }
 
     .entrar{
@@ -32,6 +44,15 @@
             font: 400 18px "Parkinsans";
             border-radius: 2px;
             border: 2px solid #757575;
+        }
+
+        button:hover{
+
+            background-color: #757575;
+            border: 2px solid #757575;
+            color: #000000;
+            transform: scale(1.02);
+            transition: 0.5s ease;
         }
 
     }
