@@ -5,6 +5,7 @@ import Tarefas from "./pages/tarefas";
 import Diario from "./pages/diario";
 import Chamados from "./pages/chamados";
 import Sobre from "./pages/sobre";
+import Entrar from "./pages/entrar";
 
 export default function Routers() {
 
@@ -18,6 +19,7 @@ export default function Routers() {
                 <Route path='/diario' element={<Diario />} />
                 <Route path='/chamados' element={<Chamados />} />
                 <Route path='/sobre' element={<Sobre />} />
+                <Route path='/entrar' element={<Entrar />} />
             </Routes>
 
         </BrowserRouter>

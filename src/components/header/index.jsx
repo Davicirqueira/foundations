@@ -1,10 +1,18 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function Header() {
 
     const location = useLocation('');
+
+    const navigate = useNavigate('');
+
+    function entrar(){
+
+        navigate('/entrar');
+
+    }
 
     return (
 
@@ -24,7 +32,7 @@ export default function Header() {
 
             <div className='entrar'>
 
-                <button>Entrar</button>
+                <button onClick={entrar}>Entrar</button>
 
             </div>
 

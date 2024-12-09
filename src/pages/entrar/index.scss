@@ -1,0 +1,33 @@
+.entrar-page{
+
+    header{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 350px;
+        padding-top: 2%;
+
+        p{
+            font: 400 18px "Parkinsans";
+            padding: 1%;
+        }
+
+        p:hover{
+            background-color: #757575;
+            transform: scale(1.02);
+            font: 500 18px "Parkinsans";
+            transition: 0.6s ease-in-out;
+            border-radius: 2px;
+        }
+
+        .items-active{
+            font: 500 18px "Parkinsans";
+            border-radius: 2px;
+            background-color: #757575;
+            padding: 1%;
+        }
+
+    }
+}
