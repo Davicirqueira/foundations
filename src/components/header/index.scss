@@ -58,3 +58,40 @@
     }
 
 }
+
+
+@media(max-width: 412px) and (max-height: 914px){
+
+
+    .header{
+
+        width: 100%;
+        padding: 4%;
+
+        a{
+            display: none;
+        }
+
+        button{
+            margin-left: 85%;
+        }
+
+    }
+
+}
+
+
+@media(max-width: 344px) and (max-height: 882px){
+
+
+    .header{
+
+        width: 100%;
+        padding: 5%;
+
+        a{
+            display: none;
+        }
+    }
+    
+}
