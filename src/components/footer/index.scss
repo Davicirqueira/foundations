@@ -1,0 +1,22 @@
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    background-color: #757474;
+    padding: 5%;
+
+    .icon{
+        
+        a{
+            color: #494747;
+        }
+
+        a:hover{
+            color: #aaa9a9;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
