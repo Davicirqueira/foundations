@@ -1,5 +1,6 @@
 import './index.scss';
 import Header from '../../components/header';
+import Card from '../../components/card';
 
 export default function Home(){
 
@@ -9,6 +10,7 @@ export default function Home(){
 
       <Header />
       
+      <Card />
 
     </div>
 
