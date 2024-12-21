@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
 
-export default function Card(){
+export default function Card(props){
 
     return(
 
@@ -9,9 +9,9 @@ export default function Card(){
 
             <div className='top'>&bnsp;</div>
 
-            <h3>Cálculos Simples</h3>
+            <h3>{props.atividade}</h3>
 
-            <Link>Praticar</Link>
+            <Link>{props.link}</Link>
 
         </div>
 
