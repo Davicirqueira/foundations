@@ -7,11 +7,11 @@ export default function Card(props){
 
         <div className='card'>
 
-            <div className='top'>&bnsp;</div>
+            <div className='top'></div>
 
             <h3>{props.atividade}</h3>
 
-            <Link>{props.link}</Link>
+        <Link to={`/home/${props.a}`}>{props.link}</Link>
 
         </div>
 

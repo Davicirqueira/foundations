@@ -8,6 +8,33 @@
     justify-content: center;
     gap: 30px;
     padding-top: 10%;
+
   }
 
+}
+
+@media(max-width: 412px) and (max-height: 914px){
+
+  .home-page{
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10%;
+    }
+
+  }
+}
+
+@media(max-width: 412px) and (max-height: 915px){
+
+  .home-page{
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10%;
+    }
+    
+  }
 }

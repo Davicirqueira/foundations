@@ -8,22 +8,26 @@ export default function Home() {
 
     {
       atividade: "Cálculos Simples",
-      link: "Praticar"
+      link: "Praticar",
+      a: "calculos"
     },
 
     {
       atividade: "Calculando IMC",
-      link: "Praticar"
+      link: "Praticar",
+      a: "imc"
     },
 
     {
       atividade: "Kg por Gramas",
-      link: "Praticar"
+      link: "Praticar",
+      a: "gramas"
     },
 
     {
       atividade: "Médias",
-      link: "Praticar"
+      link: "Praticar",
+      a: "medias"
     }
 
   ];
@@ -41,6 +45,7 @@ export default function Home() {
           <Card
             atividade={item.atividade}
             link={item.link}
+            a={item.a}
           />
 
         )}
