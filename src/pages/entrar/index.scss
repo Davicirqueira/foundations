@@ -1,17 +1,18 @@
-.entrar-page{
+.entrar-page {
 
     min-height: 100vh;
 
-    a{
+    a {
         margin-left: 10px;
         margin-top: 10px;
         color: #757575;
     }
-    a:hover{
+
+    a:hover {
         color: #000;
     }
 
-    header{
+    header {
 
         display: flex;
         flex-direction: row;
@@ -20,12 +21,12 @@
         gap: 350px;
         padding-top: 1%;
 
-        p{
+        p {
             font: 400 18px "Parkinsans";
             padding: 1%;
         }
 
-        p:hover{
+        p:hover {
             background-color: #757575;
             transform: scale(1.02);
             font: 500 18px "Parkinsans";
@@ -33,7 +34,7 @@
             border-radius: 2px;
         }
 
-        .items-active{
+        .items-active {
             font: 500 18px "Parkinsans";
             border-radius: 2px;
             background-color: #757575;
@@ -42,7 +43,7 @@
 
     }
 
-    .entrar-form{
+    .entrar-form {
 
         display: flex;
         flex-direction: column;
@@ -55,33 +56,33 @@
         margin-left: 30%;
         margin-bottom: 5%;
 
-        img{
+        img {
             width: 200px;
             padding-top: 3%;
         }
 
-        p{
+        p {
             font: 700 20px "Parkinsans";
         }
 
-        >div{
+        >div {
             display: flex;
             flex-direction: column;
             margin-bottom: 2%;
             margin-top: 6%;
 
-            label{
+            label {
                 font: 400 17px "Parkinsans";
             }
 
-            input{
+            input {
                 width: 200px;
                 border-radius: 4px;
                 border: 1px solid #fff;
                 outline: 0;
                 padding: 10px;
 
-                &:focus{
+                &:focus {
 
                     box-shadow: 0px 0px 15px 5px #413f3f;
                 }
@@ -89,7 +90,7 @@
 
         }
 
-        button{
+        button {
 
             padding: 5px;
             width: 100px;
@@ -99,7 +100,7 @@
             border: 2px solid #757575;
         }
 
-        button:hover{
+        button:hover {
 
             background-color: #757575;
             border: 2px solid #757575;
@@ -108,7 +109,7 @@
             transition: 0.5s ease;
         }
 
-        .more{
+        .more {
             padding: 5px;
             width: 150px;
             margin-top: 3%;
@@ -123,16 +124,16 @@
 
 
 //Dimensions: Samsung Galaxy A51/71 
-@media(max-width: 412px) and (max-height: 914px){
+@media(max-width: 412px) and (max-height: 914px) {
 
-    .entrar-page{
+    .entrar-page {
 
-        header{
+        header {
             gap: 0;
             flex-direction: column;
         }
 
-        .entrar-form{
+        .entrar-form {
             margin-left: 0;
             width: 100%;
             border-radius: 0px;
@@ -141,17 +142,17 @@
 
 }
 
-@media(max-width: 412px) and (max-height: 915px){
+@media(max-width: 412px) and (max-height: 915px) {
 
-    .entrar-page{
+    .entrar-page {
 
-        header{
+        header {
             gap: 5px;
             flex-direction: column;
             margin-top: 50px;
         }
 
-        .entrar-form{
+        .entrar-form {
             margin-left: 0;
             width: 100%;
             border-radius: 0px;
@@ -161,17 +162,17 @@
 }
 
 
-@media(max-width: 430px) and (max-height: 932px){
+@media(max-width: 430px) and (max-height: 932px) {
 
-    .entrar-page{
+    .entrar-page {
 
-        header{
+        header {
             gap: 5px;
             flex-direction: column;
             margin-top: 10%;
         }
 
-        .entrar-form{
+        .entrar-form {
             margin-left: 0;
             width: 100%;
             border-radius: 0px;
